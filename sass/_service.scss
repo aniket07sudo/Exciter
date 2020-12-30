@@ -1,0 +1,236 @@
+.sheet {
+    background-color: white;
+    width: 79%;
+    margin: 4rem auto;
+    padding:5rem 5rem 0 5rem;
+}
+.sheet-wrapper {
+    width: 100%;
+}
+.fancy-number {
+    font-size: 6rem;
+    display: inline-block;
+    font-weight: 700;
+    background-image: linear-gradient(90deg,#ee2b6c,#823dcc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #ec155d;
+}
+.working {
+    display: flex;
+    flex-direction: column;
+  
+    gap:1rem;
+    width: 50%;
+}
+.ysw {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    line-height: 1.4;
+    div {
+        font-size: 1.1rem;
+    }
+}
+.working-inner {
+    display: flex;
+    align-items: center;
+}
+.business {
+    margin-top: -2rem;
+    span {
+        font-size: 3rem;
+        line-height: 1;
+        font-weight: 800; 
+        margin-bottom: 2rem;
+        color: #303e47;
+    }
+    p {
+        color: #303e47;
+        line-height: 1.6;
+    }
+}
+.btn-more {
+    button {
+        color: white;
+        border: none;
+        outline: none;
+        background-color: black;
+        padding: .8rem 1.5rem;
+        border-radius: 30px;
+        border: 1px solid black;
+
+        transition: all .3s;
+        &:hover {
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            cursor: pointer;
+            box-shadow: 0 10px 20px -3px;
+            transform: scale(1.02);
+        }
+    }
+
+}
+.experience {
+    display: flex;
+    margin-bottom: 6rem;
+    gap: 1rem;
+}
+.services-container {
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.service {
+    p{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+}
+.head-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.purple {
+    color: #823dcc;
+}
+.yellow {
+    color: #fcc400;
+}
+.orange {
+    color: #f76840;
+}
+.sec-head {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+    margin-bottom: 3.5rem;
+    color: #303e47;
+    position: relative;
+}
+.sec-main {
+    display: flex;
+    gap: 5rem;
+}
+.side-links {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    &:hover .link {
+        transform: scale(0.9);
+    }
+    & .link:hover {
+        transform: scale(1.1);
+    }
+    a {
+        text-decoration: none;
+        color: #aab9ce;
+        transition: all .3s;
+        
+        &:hover {
+            color: #7e3dc5;
+            transform: scale(1.1);
+        }
+    }
+}
+.link:hover ~ .link {
+    transform: scale(0.9);
+}
+.active {
+    color: #7e3dc5!important;
+}
+.bold {
+    font-weight: bold;
+}
+.link-txt {
+    font-size: 1.3rem;
+  
+}
+.blocks {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(21rem,1fr)); 
+    grid-template-rows: repeat(3,minmax(21rem,1fr));
+    grid-gap: 1rem;
+}
+.block {
+    height: 100%;
+    width: 100%;
+    background-color: #2e3c47;
+    align-self: stretch;
+    border-radius: 3px;
+    transition: all .5s ease;
+    &:hover {
+        background-color: #823dcc;
+    }
+}
+.sidebar {
+    min-width: 10rem;
+}
+.brand {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+.block-sub {
+    font-size: .8rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+.block-head {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight:bold;
+    letter-spacing: 3px;
+}
+.tags {
+    width: 100%;
+    max-height: 100%;
+}
+.current {
+    background-color: #7e3dc5;
+}
+.studio {
+    min-height: 60rem;
+    margin-bottom: 6rem;
+}
+.sec-sub-head {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    & ~ div {
+        border: 3px solid #f8f8f8;
+        padding: .3rem 1rem;
+        border-radius: 20px;
+        display: inline-block;
+        float: left;
+        margin: .2rem;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all .4s ease;
+        color: #bcc7d8;
+        &:hover {
+            color: #823dcc;
+            border: 3px solid #823dcc;
+            transform: scale(1.08);
+            box-shadow: 0px 0px 20px -5px;;
+        }
+    }
+}

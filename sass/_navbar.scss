@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 6rem;
+}
+.navigation {
+    cursor: pointer;
+    transition: all .3s ease;
+    &:hover {
+        svg {
+            fill: black;
+        }
+    }
+   svg {
+       fill: white;
+   }
+}
+.logo {
+    transition: all .5s ease;
+    &:hover {
+        transform: scale(1.2) translateX(20%);
+    }
+}

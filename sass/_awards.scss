@@ -1,0 +1,259 @@
+.awards {
+
+    position: relative;
+    background-color: #1f2845;
+    padding: 5.3rem;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+.award-back {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    img {
+        width: 100%;
+    }
+}
+.red {
+    color: #f76840;
+}
+.awards-inner-container {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    position: relative;
+    z-index: 2;
+} 
+.project-img {
+    position: relative;
+    img {
+        width: 100%;
+    }
+}
+.project {
+    overflow: hidden; 
+}
+.honors {
+    width: 50%;
+    & div:first-child {
+        font-size: 2.8rem;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: #dadada; 
+        line-height: 1.7;
+    }
+}
+.years {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 600; 
+    span {
+        border-bottom: 3px solid white;
+        padding-right: 1.4rem; 
+        margin-right: 2.2rem;
+        }
+}
+.pro-img-strip {
+    background-color: #823dcc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+.pro-title {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    left: 22%;
+}
+.views {
+    width: 1rem!important;
+    height: .6rem;
+}
+.abs-views {
+  color: white;
+  display: flex;
+  align-items: center;
+  
+}
+.txt-center {
+    text-align: center;
+}
+.blog-container {
+    display: flex;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.blog-photo  {
+    width: 50%;
+}
+.play-btn {
+    // width: 5.5rem;
+    // height: 4.5rem;
+    // background-color: #fff;
+    // box-shadow: 0 0px 20px -7px black;
+    // border-radius: 50%;
+    // display: flex;
+    // transform: rotate(360deg);
+    // justify-content: center;
+    // align-items: center;
+    // transition: all .7s ease;
+    // cursor: pointer;
+    // &:hover {
+    //     transform: rotate(0deg) scale(1.1) ;
+    // }
+}
+.box {
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 4px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.blog-txt {
+    width: 50%;
+    padding: 5rem 5rem 5rem 3rem;
+}
+.blog-head-txt {
+    font-size: .8rem;
+    color: #dedede;
+    margin-bottom: .9rem;
+}
+.blog-title {
+    display: flex;
+    gap: 1rem;
+}
+.blog-title-txt {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: #303e47;
+}
+.blog-data {
+    margin-top: -0.3rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+.learn-more {
+    padding: .8rem 1.6rem;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    display: inline-block;
+   
+    transition: all .3s ease;
+    cursor: pointer;
+    &:hover  {
+        
+        box-shadow: 0 10px 20px -10px;
+        background-color: #10b552;
+        button {
+            color: white;
+        }
+    }
+    &:active {
+        box-shadow: 0 7px 14px -10px;
+    }
+    button {
+        background:transparent;
+        border: none;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+}
+.txt-right {
+    text-align: right;
+}
+.white {
+    background-color: #e1e1e1;
+}
+.white-txt {
+    color: white!important;
+}
+.blog {
+    margin-bottom: 6rem;
+}
+.join-inner {
+    display: flex;
+    .team , .plan {
+        width: 50%;
+    }
+}
+.team {
+    background-color: #942dbd;
+}
+.plan {
+    background-color: #ec376c;
+}
+.circle-img  {
+    margin-top: -3rem;
+   margin-bottom: 1.5rem;
+   margin-right: -.8rem;
+
+}
+.join-txt-container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    padding:1rem 5rem 5rem 5rem;
+    & span:first-child {
+        font-size: 1.2rem;
+    }
+}
+.join-txt {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+.footer-nav {
+    background-color: #f6f6f6;
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-content: stretch;
+    li {
+        padding: 1.6rem 2rem; 
+        cursor: pointer; 
+        font-weight: 600;
+        align-self: stretch;
+        background-image: linear-gradient(120deg,transparent 0%,transparent 50%,black 50%); 
+        background-size: 264%;
+        transition: all .5s ease;
+    }
+    li:hover {
+        color: white;
+        background-position: 100%;
+        transform: translateX(-10%);
+    }
+ 
+}
+ul {
+    margin: 0;
+    padding: 0; 
+}
+.nav-right {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    color: #929292;
+}
